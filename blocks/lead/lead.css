@@ -1,0 +1,13 @@
+@media screen and (min-width: 1024px) {
+  .lead {
+    width: calc(100% - 96px);
+    margin: 0 auto 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead {
+    max-width: 984px;
+    margin: 0 auto 92px;
+  }
+}
