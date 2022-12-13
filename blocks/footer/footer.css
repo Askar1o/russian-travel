@@ -14,7 +14,12 @@
 
 @media screen and (min-width: 1024px) {
   .footer {
+    width: calc(100% - 96px);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer {
     max-width: 1184px;
-    justify-content: space-between;
   }
 }
